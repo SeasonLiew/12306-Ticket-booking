@@ -1,9 +1,9 @@
 # 12306-Ticket-booking
-负责一条线路，十个站点的订票。程序可以模拟随机数量的人口预定随机始发站到终点站的火车票。在自行订票时，可以显示余票数。同时可以浏览火车在离开站台0-10之后的座位分布图(ASCII特殊符号来代表每个人的身份）
+This is a program simulating the train ticket booking procedure for reserved seats of a coach with 20*5 seats. As a human, you can specify your starting station, destination station and the seat position you want to order. The system will display the amount of available seats for your intended interval before you book the ticket. On confirming to book the ticket, you can either manually choose the seat from the seat graph shown on the prompt, or the system will randomly allocate the seat for you. You can also simulate the ticket booking activity done by the random population to test the usability of the program. You can also view the passenger represented by different ascii character of each station of the 10 stations(0 means empty), with the number of the station specified.
 
 
 
-主界面：
+interface：
 ```
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -22,7 +22,7 @@
 0.EXIT
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-站台浏览 例：人口模拟后的从第2站台出发后的位置分布
+view the station e.g. view the 2n station after a population simulation
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 *****INSERT YOUR OPTION CODE AND PRESS RETURN!******
@@ -41,7 +41,7 @@ WHICH STATION YOU WANT TO VIEW?
 |3 O # O O O & O O & ^ % O O ( O % O O O O | 
 --------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-手动订票(自行选择座位）
+manually choose seat
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 *****INSERT YOUR OPTION CODE AND PRESS RETURN!******
 1.I'M HUMAN!
